@@ -54,6 +54,8 @@ For each command of type print, print the list on a new line.
 **Sample Output 0**
 
 >[6, 5, 10]
+
 >[1, 5, 9, 10]
+
 >[9, 5, 1]
 
