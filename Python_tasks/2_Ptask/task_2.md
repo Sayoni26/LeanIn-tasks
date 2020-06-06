@@ -59,3 +59,31 @@ For each command of type print, print the list on a new line.
 
 >[9, 5, 1]
 
+nlist=[3,2,5,4]
+#for inserting e at i position
+e=int(input("insert"))
+i=int(input())
+nlist.insert(i,e)
+print(nlist)
+
+#for removing e from list
+nlist.remove(e)
+print(nlist)
+
+#adding e to the list
+nlist.append(e)
+print(nlist)
+
+#for sorting
+nlist.sort()
+print(nlist)
+
+#for poping the last variable of the list
+last=len(nlist)-1
+nlist.pop(last)
+print(nlist)
+
+#reversing the list
+nlist.reverse()
+print(nlist)
+
