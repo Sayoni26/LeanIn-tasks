@@ -59,3 +59,15 @@ For each command of type print, print the list on a new line.
 
 >[9, 5, 1]
 
+list=[50,5,45,4,30,3]
+print(list)
+list.insert(2,1)
+print(list)
+del list[2]
+print(list)
+list.sort()
+print(list)
+list.pop()
+print(list)
+list.reverse()
+print(list)
