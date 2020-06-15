@@ -33,3 +33,4 @@ if n>=1 and n<=100:
         print("weird")
     if n%2==0 and n>20
         print("not weird")
+

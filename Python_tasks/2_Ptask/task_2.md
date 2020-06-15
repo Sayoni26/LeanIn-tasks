@@ -59,6 +59,7 @@ For each command of type print, print the list on a new line.
 
 >[9, 5, 1]
 
+
 nlist=[3,2,5,4]
 #for inserting e at i position
 e=int(input("insert"))
