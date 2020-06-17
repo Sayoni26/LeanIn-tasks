@@ -24,10 +24,6 @@ s=input("enter string")
 if (len(s)%4==0):
     rev=s[::-1]
     print(rev)
-
-4. Write a Python program to convert a string in a list.
-s=input("enter string")
-=======
 string=input("enter the string:")
 freq={}
 for i in string: 
@@ -35,8 +31,7 @@ for i in string:
         freq[i] += 1
     else: 
         freq[i] = 1
-print ("Count of all characters in is :\n "
-                                        +  str(freq))
+print ("Count of all characters in is :\n "+  str(freq))
 
 3. Write a Python function to reverses a string if it's length is a multiple of 4.
 string=input("enter the string:") 
