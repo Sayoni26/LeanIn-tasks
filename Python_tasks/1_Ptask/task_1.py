@@ -22,15 +22,15 @@ Print Weird if the number is weird; otherwise, print Not Weird.
 3
 **Sample Output 0**
 >Weird
-n=int(input("enter the number"))
+
+n=input()
 if n>=1 and n<=100:
     if n%2!=0:
         print("weird")
-    elif n>=2 and n<=5:
-        print("not weird")
-    elif n>=6 and n<=20:
+    if n%2==0 and in range(2,6)
+        print("not weird")    
+    if n%2==0 and in range(6,21)
         print("weird")
-    else:
+    if n%2==0 and n>20
         print("not weird")
-else:
-    ("invalid number")
+
