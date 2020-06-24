@@ -3,7 +3,7 @@
 #* Write a NumPy program to display all the dates for the month of March, 2017.
 import numpy as np
 print("all data for the month of march 2017:")
-print(np.arange('2017-03','2017-04',dtype='M'))
+print(np.arange('2017-03','2017-04',dtype='datetime64[D]' ))
 
 #* Write a NumPy program to get the dates of yesterday, today and tomorrow.
 yes=np.datetime64("today",'D')-np.timedelta64(1,'D')
